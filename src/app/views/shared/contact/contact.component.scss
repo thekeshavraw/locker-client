@@ -1,0 +1,42 @@
+.container {
+     text-align: center;
+     margin-top: 50px;
+}
+
+.about-section {
+     background-color: #f8f8f8;
+     border-radius: 10px;
+     padding: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h1 {
+     font-size: 36px;
+     color: #333;
+     margin-bottom: 20px;
+}
+
+.about-section p {
+     font-size: 18px;
+     color: #555;
+}
+
+.about-section ul {
+     list-style-type: none;
+     padding: 0;
+}
+
+.about-section ul li {
+     font-size: 16px;
+     margin: 10px 0;
+}
+
+.about-section a {
+     color: #007bff;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+.about-section a:hover {
+     text-decoration: underline;
+}

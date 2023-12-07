@@ -1,0 +1,39 @@
+.header {
+     height: 70px;
+     background-color: #77ae92;
+     // position: fixed;
+
+
+     .header-logo {
+          img {
+               height: 50px;
+               width: 50px;
+
+          }
+     }
+
+     .col {
+          position: fixed;
+     }
+
+     .header-menu {
+          ul {
+               float: right;
+               padding: 20px;
+
+
+               li {
+                    list-style: none;
+                    display: inline;
+                    margin-right: 20px;
+                    cursor: pointer;
+
+                    a {
+                         color: rgb(53, 38, 120);
+                         text-decoration: none;
+                    }
+               }
+          }
+     }
+
+}

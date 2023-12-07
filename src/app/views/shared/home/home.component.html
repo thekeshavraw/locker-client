@@ -1,0 +1,11 @@
+<ng-container *ngIf="isUserLoggedIn">
+	<app-items></app-items>
+</ng-container>
+<ng-container *ngIf="!isUserLoggedIn">
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Welcome to Your Personal Vault Realm</h1>
+			<p>Explore the amazing features we brought for you and your ones!</p>
+		</div>
+	</div>
+</ng-container>

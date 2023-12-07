@@ -1,0 +1,41 @@
+/* Add this to your CSS file for custom styles */
+
+.container {
+     margin-top: 50px;
+     padding: 20px;
+}
+
+.form-control {
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     margin-bottom: 15px;
+}
+
+.form-control::placeholder {
+     color: #999;
+     font-style: italic;
+}
+
+.btn-primary {
+     background-color: #4caf50;
+     border-color: #4caf50;
+     box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+}
+
+.btn-primary:hover {
+     background-color: #45a049;
+     border-color: #45a049;
+}
+
+.input-lg {
+     width: 100%;
+     /* Set the input width to 100% */
+     padding: 10px;
+     /* Add some padding for better appearance */
+}
+
+h2 {
+     color: #007bff;
+     /* Set header text color */
+}

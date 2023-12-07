@@ -1,0 +1,48 @@
+<div class="container">
+     <form [formGroup]="itemDetailsForm" (ngSubmit)="onSave()">
+          <h2 class="text-center mb-4 font-weight-bold">Add Your Item Details</h2>
+          <div class="row">
+               <div class="col-md-6">
+                    <div class="form-group">
+                         <label for="itemId">Item ID:</label>
+                         <input type="text" formControlName="itemId" class="form-control">
+                    </div>
+                    <div class="form-group">
+                         <label for="name">Name:</label>
+                         <textarea formControlName="name" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                         <label for="account">Account:</label>
+                         <input formControlName="accountNo" class="form-control">
+                    </div>
+                    <div class="form-group">
+                         <label for="ifsc">IFSC:</label>
+                         <input type="text" formControlName="ifscCode" class="form-control">
+                    </div>
+               </div>
+               <div class="col-md-6">
+                    <div class="form-group">
+                         <label for="user">User:</label>
+                         <input type="text" formControlName="user" class="form-control">
+                    </div>
+                    <div class="form-group">
+                         <label for="secret">Secret:</label>
+                         <input type="password" formControlName="secret" class="form-control">
+                    </div>
+                    <div class="form-group">
+                         <label for="description">Description:</label>
+                         <textarea formControlName="description" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                         <label for="status">Status:</label>
+                         <input type="status" formControlName="status" class="form-control">
+                    </div>
+               </div>
+          </div>
+          <div class="row mt-3 justify-content-center">
+               <div class="col-md-6 text-center">
+                    <button class="btn btn-primary btn-block">Save</button>
+               </div>
+          </div>
+     </form>
+</div>

@@ -1,0 +1,29 @@
+<div class="header">
+     <div class="container-fluid">
+          <div class="row">
+               <div class="col">
+                    <!-- <div class="header-logo">
+                         <a href=""><img src="../../../../assets/" alt="Logo"></a>
+                    </div> -->
+               </div>
+               <div class="col">
+                    <div class="header-menu">
+                         <ng-container *ngIf="!isUserLoggedIn">
+                              <ul>
+                                   <li><a routerLink="/">Home</a></li>
+                                   <li><a routerLink="/about">About</a></li>
+                                   <li><a routerLink="/contact">Contact</a></li>
+                                   <li><a routerLink="/login">Login</a></li>
+                                   <li><a routerLink="/signup">Signup</a></li>
+                              </ul>
+                         </ng-container>
+                         <ng-container *ngIf="isUserLoggedIn">
+                              <ul>
+                                   <li (click)="logout()"><b>Logout</b></li>
+                              </ul>
+                         </ng-container>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
